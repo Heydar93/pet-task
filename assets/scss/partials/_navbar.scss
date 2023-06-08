@@ -1,0 +1,21 @@
+$primary-color: #7a93ac;
+
+header {
+  background-color: #fff;
+
+  .navbar-brand {
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .navbar-nav .nav-link {
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

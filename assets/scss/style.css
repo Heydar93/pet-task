@@ -1,0 +1,123 @@
+header {
+  background-color: #fff;
+}
+header .navbar-brand {
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+}
+header .navbar-nav .nav-link {
+  color: #333;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+header .navbar-nav .nav-link:hover {
+  color: #7a93ac;
+}
+
+.intro-section {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+.intro-section .intro-title {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.intro-section .intro-subtitle {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 80%;
+}
+
+.col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.col-lg-6 a {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-lg-6 h2 {
+  margin-bottom: 10px;
+}
+.col-lg-6 .pet-icon {
+  max-width: 4px;
+  height: 4px;
+}
+
+.pet-care {
+  margin: 0px 100px;
+}
+.pet-care p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.pet-care a {
+  font-size: 60px;
+}
+
+.pricing-section {
+  padding: 100px 0;
+}
+.pricing-section .pricing-card {
+  background-color: #f8f9fa;
+  padding: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.pricing-section .pricing-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.pricing-section .pricing-card .price {
+  font-size: 36px;
+  color: #7a93ac;
+  margin-bottom: 20px;
+}
+.pricing-section .pricing-card .price .currency {
+  font-size: 20px;
+  vertical-align: top;
+}
+.pricing-section .pricing-card .price .amount {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.pricing-section .pricing-card .price .period {
+  font-size: 18px;
+  vertical-align: top;
+}
+.pricing-section .pricing-card .features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.pricing-section .pricing-card .features li {
+  margin-bottom: 10px;
+}
+.pricing-section .pricing-card .btn {
+  background-color: #7a93ac;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.pricing-section .pricing-card .btn:hover {
+  background-color: #5d7a96;
+}
+.pricing-section .pricing-card.featured {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=style.css.map */
